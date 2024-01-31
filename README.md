@@ -1,6 +1,6 @@
 # pilleasy
 
-A new Flutter project.
+This is an ongoing project for the upcoming Google Solution Challenge, aimed to solve one of the UN sustainable goals.
 
 ## Getting Started
 
