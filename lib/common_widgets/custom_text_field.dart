@@ -11,7 +11,8 @@ Widget customTextField({String? title}) {
       TextFormField(
         // obscureText: isPassword,
         // controller: controller,
-        decoration: InputDecoration(
+        decoration: const InputDecoration(
+          fillColor: Colors.white,
           hintText: 'a@gmail.com',
             hintStyle: TextStyle( color: Colors.grey),
             // hintText: hint,

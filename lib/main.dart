@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:pilleasy/screens/auth_screens/login_screen.dart';
-
+import 'package:get/get.dart';
+import 'package:pilleasy/routes/routes.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -11,15 +12,10 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
-      home: LoginScreen(),
+      getPages: RoutesClass.routes,
+      initialRoute: RoutesClass.logIn,
     );
   }
 }
-
-

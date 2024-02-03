@@ -28,6 +28,8 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  
+  csc_picker: ^0.2.6
   get: ^4.6.6
   velocity_x: ^4.1.2
   flutter:
