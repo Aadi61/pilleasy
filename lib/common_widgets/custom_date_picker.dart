@@ -19,7 +19,7 @@ class CustomDatePicker extends StatelessWidget {
         title.text.size(20).make(),
         CupertinoButton(
             child: Container(
-              width: 145,
+              width: 160,
               height: 40,
               decoration: BoxDecoration(
                 border: Border.all(color: Colors.grey),
